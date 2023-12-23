@@ -6,11 +6,11 @@ public class Module1_AlgoAnalysis_quiz {
         int score =0;
         Scanner input = new Scanner(System.in);
         String answer1 = input.nextLine();
-        switch (answer1) {
-            case "a","A":
+        switch (answer1.toLowerCase()) {
+            case "a":
         System.out.println("Wrong answer. The correct answer is n^3.");
             break;
-            case "b","B":
+            case "b":
         System.out.println("Correct Answer!");
         score +=1;
             break;
@@ -20,11 +20,11 @@ public class Module1_AlgoAnalysis_quiz {
 
         System.out.println("Question 2- If two loops are nested, which rule do we follow?\na)Rule of Sums  b)Rule of Products");
         String answer2 = input.nextLine();
-        switch (answer2) {
-            case "a","A":
+        switch (answer2.toLowerCase()) {
+            case "a":
         System.out.println("Wrong answer. The correct answer is Rule of Products.");
             break;
-            case "b","B":
+            case "b":
         System.out.println("Correct Answer!");
         score +=1;
             break;
@@ -34,12 +34,12 @@ public class Module1_AlgoAnalysis_quiz {
 
         System.out.println("Question 3- What among the two given Big O functions is more efficient?\na)O(logn)  b)O(nlogn)");
         String answer3 = input.nextLine();
-        switch (answer3) {
-            case "a","A":
+        switch (answer3.toLowerCase()) {
+            case "a":
         System.out.println("Correct Answer!");
         score +=1;
             break;
-            case "b","B":
+            case "b":
         System.out.println("Wrong answer. The correct answer is O(logn).");
             break;
             default:
@@ -48,12 +48,12 @@ public class Module1_AlgoAnalysis_quiz {
 
         System.out.println("Question 4- What among the two given Big O functions is less efficient?\na)O(n!)  b)O(2^n)");
         String answer4 = input.nextLine();
-        switch (answer4) {
-            case "a","A":
+        switch (answer4.toLowerCase()) {
+            case "a":
         System.out.println("Correct Answer!");
         score +=1;
             break;
-            case "b","B":
+            case "b":
         System.out.println("Wrong answer. The correct answer is O(n!).");
             break;
             default:
@@ -62,12 +62,12 @@ public class Module1_AlgoAnalysis_quiz {
 
         System.out.println("Question 5- What would be the time complexity for a function that returns fibonacci series of a given integer, using recursion?\na)O(2^n)   b)O(n)");
         String answer5 = input.nextLine();
-        switch (answer5) {
-            case "a","A":
+        switch (answer5.toLowerCase()) {
+            case "a":
         System.out.println("Correct Answer!");
         score +=1;
             break;
-            case "b","B":
+            case "b":
         System.out.println("Wrong answer. The correct answer is O(2^n).");
             break;
             default:
