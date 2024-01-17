@@ -1,14 +1,14 @@
 import java.util.Scanner;
-public class Module2_search_and_sort_quiz {
+public class C4_Module1_StacksAndQueues_quiz {
     public static void main(String[] args) {
-        System.out.println("Welcome to the questionnaire for module 2- Searching and Sorting. This is a multiple choice quiz, so please enter input as a or b.");
-        System.out.println("Question 1- How type of search algorithm requires a sorted array?\na)Linear Search  b)Binary Search");
+        System.out.println("Welcome to the questionnaire for module 1- Stacks and queues.");
+        System.out.println("Question 1- An ArrayList is better for which of the following, when compared to a linked list?\na)Data manipulation b)Storing and accessing data");
         int score =0;
         Scanner input = new Scanner(System.in);
         String answer1 = input.nextLine();
         switch (answer1.toLowerCase()) {
             case "a":
-        System.out.println("Wrong answer. The correct answer is - Binary Search.");
+        System.out.println("Wrong answer. The correct answer is Storage and accessing the data.");
             break;
             case "b":
         System.out.println("Correct Answer!");
@@ -18,11 +18,11 @@ public class Module2_search_and_sort_quiz {
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 2- What is the worst case in a Linear Search?\na)Element being searched is in the middle  b)Element being searched is the last element");
+        System.out.println("Question 2- What is the exception when you try to push into a stack which is already at max capacity?\na)Stack Underflow  b)Stack Overflow");
         String answer2 = input.nextLine();
         switch (answer2.toLowerCase()) {
             case "a":
-        System.out.println("Wrong answer. The correct answer is- Element being searched is the last element.");
+        System.out.println("Wrong answer. The correct answer is Stack Overflow.");
             break;
             case "b":
         System.out.println("Correct Answer!");
@@ -32,21 +32,21 @@ public class Module2_search_and_sort_quiz {
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 3- What is the time complexity of Binary search?\na)O(logn)  b)O(n)");
+        System.out.println("Question 3- What is the time complexity of making push and pop operation costly respectively, when a stack is implemented using two queues?\na)O(1) for Push and O(n) for Pop  b)O(n) for both");
         String answer3 = input.nextLine();
         switch (answer3.toLowerCase()) {
             case "a":
-        System.out.println("Correct Answer!");
-        score +=1;
+        System.out.println("Wrong answer. The correct answer is O(n) for both.");
             break;
             case "b":
-        System.out.println("Wrong answer. The correct answer is O(logn).");
+        System.out.println("Correct Answer!");
+        score +=1;
             break;
             default:
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 4- What sorting algorithm has worse time complexity in best-case scenario?\na)Selection Sort  b)Insertion Sort");
+        System.out.println("Question 4- What data structure is preffered if a String has to be reversed?\na)Stack  b)Queue");
         String answer4 = input.nextLine();
         switch (answer4.toLowerCase()) {
             case "a":
@@ -54,27 +54,28 @@ public class Module2_search_and_sort_quiz {
         score +=1;
             break;
             case "b":
-        System.out.println("Wrong answer. The correct answer is - Selction sort.");
+        System.out.println("Wrong answer. The correct answer is Stack.");
             break;
             default:
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 5- What sorting algorithm is known as a stable sort?\na)Merge Sort   b)Quick sort");
+        System.out.println("Question 5- Undo/Redo operation in Word or Excel is a real life application of which data structure ?\na)Queue   b)Stack");
         String answer5 = input.nextLine();
         switch (answer5.toLowerCase()) {
             case "a":
-        System.out.println("Correct Answer!");
-        score +=1;
+        System.out.println("Wrong answer. The correct answer is Stack.");
             break;
             case "b":
-        System.out.println("Wrong answer. The correct answer is -Merge Sort.");
+        System.out.println("Correct Answer!");
+        score +=1;
             break;
             default:
         System.out.println("Please choose between a and b.");
         }
-        
-        System.out.println("Your final score is " +score + " out of 5 questions.");
+
+     
+        System.out.println("Your final score is " +score + " out of 5 questions. ");
 
 
     }

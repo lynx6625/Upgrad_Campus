@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    public class Module2_quiz {
+    public class C2_Module2_quiz {
         public static void main(String[] args) {
             System.out.println("Welcome to the questionnaire for module 2- Conditionals,Loops and functions.");
             System.out.println("Question 1- What is the name of the statement used between cases in a switch statement so that other statements are not executed?");

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Module4_quiz {
+public class C2_Module4_quiz {
     public static void main(String[] args) {
         System.out.println("Welcome to the questionnaire for module 2- Conditionals,Loops and functions.");
         System.out.println("Question 1- A private method can be overridden. True or False?");

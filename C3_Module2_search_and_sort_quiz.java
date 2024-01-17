@@ -1,14 +1,14 @@
 import java.util.Scanner;
-public class Module1_AlgoAnalysis_quiz {
+public class C3_Module2_search_and_sort_quiz {
     public static void main(String[] args) {
-        System.out.println("Welcome to the questionnaire for module 1- Algorithm Analysis.");
-        System.out.println("Question 1- How would the given time complexity function be reduced?\nT(n) = 6n^3+2n^2+4\na)n^2  b)n^3");
+        System.out.println("Welcome to the questionnaire for module 2- Searching and Sorting. This is a multiple choice quiz, so please enter input as a or b.");
+        System.out.println("Question 1- How type of search algorithm requires a sorted array?\na)Linear Search  b)Binary Search");
         int score =0;
         Scanner input = new Scanner(System.in);
         String answer1 = input.nextLine();
         switch (answer1.toLowerCase()) {
             case "a":
-        System.out.println("Wrong answer. The correct answer is n^3.");
+        System.out.println("Wrong answer. The correct answer is - Binary Search.");
             break;
             case "b":
         System.out.println("Correct Answer!");
@@ -18,11 +18,11 @@ public class Module1_AlgoAnalysis_quiz {
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 2- If two loops are nested, which rule do we follow?\na)Rule of Sums  b)Rule of Products");
+        System.out.println("Question 2- What is the worst case in a Linear Search?\na)Element being searched is in the middle  b)Element being searched is the last element");
         String answer2 = input.nextLine();
         switch (answer2.toLowerCase()) {
             case "a":
-        System.out.println("Wrong answer. The correct answer is Rule of Products.");
+        System.out.println("Wrong answer. The correct answer is- Element being searched is the last element.");
             break;
             case "b":
         System.out.println("Correct Answer!");
@@ -32,7 +32,7 @@ public class Module1_AlgoAnalysis_quiz {
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 3- What among the two given Big O functions is more efficient?\na)O(logn)  b)O(nlogn)");
+        System.out.println("Question 3- What is the time complexity of Binary search?\na)O(logn)  b)O(n)");
         String answer3 = input.nextLine();
         switch (answer3.toLowerCase()) {
             case "a":
@@ -46,7 +46,7 @@ public class Module1_AlgoAnalysis_quiz {
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 4- What among the two given Big O functions is less efficient?\na)O(n!)  b)O(2^n)");
+        System.out.println("Question 4- What sorting algorithm has worse time complexity in best-case scenario?\na)Selection Sort  b)Insertion Sort");
         String answer4 = input.nextLine();
         switch (answer4.toLowerCase()) {
             case "a":
@@ -54,13 +54,13 @@ public class Module1_AlgoAnalysis_quiz {
         score +=1;
             break;
             case "b":
-        System.out.println("Wrong answer. The correct answer is O(n!).");
+        System.out.println("Wrong answer. The correct answer is - Selction sort.");
             break;
             default:
         System.out.println("Please choose between a and b.");
         }
 
-        System.out.println("Question 5- What would be the time complexity for a function that returns fibonacci series of a given integer, using recursion?\na)O(2^n)   b)O(n)");
+        System.out.println("Question 5- What sorting algorithm is known as a stable sort?\na)Merge Sort   b)Quick sort");
         String answer5 = input.nextLine();
         switch (answer5.toLowerCase()) {
             case "a":
@@ -68,15 +68,13 @@ public class Module1_AlgoAnalysis_quiz {
         score +=1;
             break;
             case "b":
-        System.out.println("Wrong answer. The correct answer is O(2^n).");
+        System.out.println("Wrong answer. The correct answer is -Merge Sort.");
             break;
             default:
         System.out.println("Please choose between a and b.");
         }
-
-    
         
-        System.out.println("Your final score is " +score + " out of 5a questions. ");
+        System.out.println("Your final score is " +score + " out of 5 questions.");
 
 
     }

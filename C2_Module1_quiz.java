@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Module1_quiz {
+public class C2_Module1_quiz {
     public static void main(String[] args) {
         System.out.println("Welcome to the questionnaire for module 1- Variables and data types.");
         System.out.println("Question 1- What is the name of the class which needs to be imported in order to take user input?");

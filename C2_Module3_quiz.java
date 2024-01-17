@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Module3_quiz {
+public class C2_Module3_quiz {
     public static void main(String[] args) {
         System.out.println("Welcome to the questionnaire for module 2- Conditionals,Loops and functions.");
         System.out.println("Question 1- What is the keyword used to differentiate between instance variables and parameters in a constructor ?");
