@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Scanner;
-public class C4_Module2_HashtablesHashmapsAndHashsets {
+public class C4_Module3_HashtablesHashmapsAndHashsets {
     public static void main(String[] args) {
         HashMap<Integer, Character> hm = new HashMap<Integer, Character>();
         hm.put(1,'a');
@@ -10,7 +10,7 @@ public class C4_Module2_HashtablesHashmapsAndHashsets {
         hm.put(5,'a');
         int score =0;
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the questionnaire for module 2- Hashtables, Hashmaps and Hashsets. \n The answers for each question in the following quiz are stored in a hashmap in a key-value pair!!");
+        System.out.println("Welcome to the questionnaire for module 3- Hashtables, Hashmaps and Hashsets. \n The answers for each question in the following quiz are stored in a hashmap in a key-value pair!!");
         System.out.println("Question 1- What is the phenomenon called when two keys in a hashtable get hashed to the same index?\na)Collision b)Chaining");
         char answer1 = input.next().charAt(0);
         if(answer1==hm.get(1)){
