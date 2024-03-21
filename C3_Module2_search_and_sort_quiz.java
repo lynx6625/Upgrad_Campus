@@ -76,6 +76,6 @@ public class C3_Module2_search_and_sort_quiz {
         
         System.out.println("Your final score is " +score + " out of 5 questions.");
 
-
+        input.close();
     }
 }

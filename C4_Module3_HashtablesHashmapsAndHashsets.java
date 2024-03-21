@@ -57,5 +57,6 @@ public class C4_Module3_HashtablesHashmapsAndHashsets {
             System.out.println("Wrong! A Hashtable does not allow null for key as well as for value.");
         }
         System.out.println("Your final score is " + score + " out of 5 questions.");
+        input.close();
 }
 }

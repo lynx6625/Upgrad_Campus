@@ -77,6 +77,6 @@ public class C4_Module1_StacksAndQueues_quiz {
      
         System.out.println("Your final score is " +score + " out of 5 questions. ");
 
-
+        input.close();
     }
 }

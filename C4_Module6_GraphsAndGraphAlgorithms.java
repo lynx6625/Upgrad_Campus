@@ -57,6 +57,7 @@ public class C4_Module6_GraphsAndGraphAlgorithms {
             System.out.println("Wrong! Adjacency Matrix is slower.");
         }
         System.out.println("Your final score is " + score + " out of 5 questions.");
+        input.close();
 }
 }
 

@@ -57,5 +57,6 @@ public class C4_Module4_BinaryTreesAndBinarySearchTrees {
             System.out.println("Wrong! Time complexity is O(n).");
         }
         System.out.println("Your final score is " + score + " out of 5 questions.");
+        input.close();
 }
 }

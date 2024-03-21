@@ -45,8 +45,8 @@ import java.util.Scanner;
                 System.out.println("Wrong Answer! The correct answer is- Math.");
             }
             System.out.println("Your final score is " +score);
-
-
+            input.close();
+            
         }
     }
 

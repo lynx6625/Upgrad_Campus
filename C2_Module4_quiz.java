@@ -46,5 +46,6 @@ public class C2_Module4_quiz {
             System.out.println("Wrong Answer! The correct answer is- false.");
         }
         System.out.println("Your final score is " +score);
+        input.close();
     }
 }

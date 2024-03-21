@@ -76,8 +76,8 @@ public class C3_Module1_AlgoAnalysis_quiz {
 
     
         
-        System.out.println("Your final score is " +score + " out of 5a questions. ");
+        System.out.println("Your final score is " +score + " out of 5 questions. ");
 
-
+        input.close();
     }
 }
